@@ -1,94 +1,66 @@
-# 🛋️ Comfort Mode Toolkit
+# Welcome Home
 
-Welcome to the Comfort Mode Toolkit—a community-driven project on a mission to make the web **comfier, kinder, and more accessible for everyone**. Whether you’re a developer, designer, researcher, or just someone passionate about a better digital experience, you belong here!
-
-Implementation of the Comfort Mode framework from [Beyond Compliance: A User-Autonomy Framework for Inclusive and Customizable Web Accessibility](https://doi.org/10.48550/arXiv.2506.10324)
+**A home in a seaside forest where we're building kinder tools and a kinder web, together.**
 
 ---
+
+Comfort Commons is an open-source community creating tools that make the web actually comfortable for real people with real needs. We're developers, designers, researchers, writers, and advocates who believe the internet should feel good to use—not just check compliance boxes.
+
+We bring together people who experience the web in different ways: those who need higher contrast, those who get dizzy from certain animations, those who navigate by keyboard, those who use screen readers, and those who just want the web to stop being so overwhelming. Together, we're building tools that let everyone adjust their experience to what works for them.
+
+**Everything we build is open-source, free, and built by this community. Including you, if you'd like.**
 
 ## 🚧 Work In Progress!
 
 **Heads up:** Comfort Mode Toolkit is a living project—research, tools, and docs here are a **work in progress**!  
 We’re always iterating, learning, and adding new things. Your feedback and contributions shape where we go next.
 
----
 
-## What is Comfort Mode?
+## What We're Working Toward
 
-Comfort Mode is a set of tools, research, and practices designed to:
-- **Let users control how websites look and feel,** so they can browse in a way that's truly comfortable for them.
-- Go beyond “bare minimum” accessibility, focusing on **personalization, comfort, and real user needs.**
+Here's the question driving everything we do: **Can we build a web where people control their own comfort, instead of one-size-fits-all solutions?**
 
-Our work spans:
-- **Scaling & Spacing:** Smart defaults that adapt to user needs (not just “make it bigger!”).
-- **Motion & Animation:** Helping sites feel lively but never overwhelming (and always optional).
-- **Research:** Gathering evidence and real user stories to inform every decision.
-- **Open-source tools:** Python CLI utilities, docs, and more!
+Most accessibility work focuses on minimum compliance—meeting legal standards, hitting WCAG checkboxes. Those matter, but they often miss the human part: the actual experience of using the web every day.
 
----
+We're trying something different. We start with real struggles that real people share with us. We research together (no PhD required). We build practical tools that actually help. We test with the people who'll use them. And we keep improving based on what works in real life, not just what looks good on paper.
 
-## How Can You Contribute?
+## What We're Building
 
-You **don’t have to be an expert**—all backgrounds and experience levels are welcome!  
-Ways to help:
-- Research accessibility needs or share user stories
-- Improve documentation (clarity, setup guides, etc.)
-- Give feedback on interfaces or comfort features
-- Tackle beginner-friendly Python tasks
-- Share your own comfort tricks, habits, or pet peeves!
+### Our Tools
 
-Start here:
-- [Contribution and workflow walkthrough]([./contributions/contribution-guide-iitm-students.md](https://github.com/comfort-mode-toolkit/cm-hub?tab=readme-ov-file))
-- [Planner Board (issues & tasks)](https://github.com/orgs/comfort-mode-toolkit/projects/2/views/1)
-- [Introduce Yourself!](https://github.com/comfort-mode-toolkit/cm-hub/discussions/4)
-- IIT Madras Student? Checkout our getting started [guide](https://github.com/comfort-mode-toolkit/cm-hub/blob/main/contributions/contribution-guide-iitm-students.md)
+#### [CM-Colors](https://github.com/comfort-mode-toolkit/cm-colors)
+**What it does:** Takes your beautiful color palette and makes tiny, nearly invisible tweaks so everyone can actually read your content. You keep your design vision, and your users can read what you wrote. Win-win.
 
----
+**The challenge it solves:** Designers want gorgeous colors. Users need enough contrast to read comfortably. These don't have to be enemies. CM-Colors handles the technical requirements so you can focus on making things beautiful *and* readable.
 
-## Our Values
+### Research We're Exploring
 
-- **Kindness & Respect:** We uplift, support, and learn from each other.
-- **Real-World Comfort:** We listen to actual user needs (not just checklists).
-- **Open Science:** All research and findings are shared, credited, and reusable.
-- **Fun & Quirkiness:** Comfort is personal—your quirks, stories, and pet pics are welcome!
+We're currently investigating:
+*   **How certain color combinations affect people with vestibular challenges**
+*   **Why developers struggle to adopt accessibility tools**
+*   **How color meaning and accessibility needs vary across cultures**
+*   **Performance impact of real-time accessibility adjustments**
 
----
+## How We Work Together
 
-## Where to Ask for Help
+We follow a cycle that keeps real people at the center:
+1.  **Someone shares a real problem** they're experiencing or witnessing
+2.  **We research it together** using academic sources, community wisdom, and lived experience
+3.  **We build something practical** that fits into real workflows
+4.  **We test with actual humans** to see if it helps
+5.  **We improve based on honest feedback** about what works and what doesn't
 
-Stuck or unsure?  
-- Post in the [Research Help Thread](https://github.com/comfort-mode-toolkit/cm-hub/discussions/5) or reply on any discussion.
-- Tag `@lalithaar` for urgent questions.
-- No question is too small—everyone’s learning together!
+Everything happens in the open. You can watch, participate, or just lurk. All are welcome.
 
----
+## How to Jump In
 
-## Get Involved
+Whether you've never contributed to open source before or you're an experienced developer, there's a place for you here.
 
-- Browse the [`research needed`](https://github.com/orgs/comfort-mode-toolkit/projects/2) section for ongoing studies
-- Explore the [`contributions/`](https://github.com/comfort-mode-toolkit/cm-hub/tree/main/contributions) folder for how-tos and best practices
+<!--*   **Brand New?** Read our [Getting Started](https://comfort-mode-toolkit.readthedocs.io/en/latest/getting-started.html) guide or browse [good first issues](https://github.com/comfort-mode-toolkit/cm-hub/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+*   **Researcher/Writer?** Check our [Research Hub](https://comfort-mode-toolkit.readthedocs.io/en/latest/contributing/research/index.html).
+*   **Developer?** Browse our [repositories](https://github.com/comfort-mode-toolkit) and read our [Technical Setup Guide](https://comfort-mode-toolkit.readthedocs.io/en/latest/contributing/code/setup.html).
+*   **Designer?** Share insights and help us understand design constraints.-->
 
----
+**You don't need permission to participate.** Comment on an issue, ask a question, share an idea. That's contributing.
 
-## 🙏 Standing on the Shoulders of Giants
-
-A **huge thank you** to the researchers, writers, designers, accessibility advocates, and communities whose knowledge and creativity made this possible.  
-This toolkit draws inspiration and evidence from foundational work, including but not limited to:
-
-- Special thanks to pioneers like Tim Berners-Lee, Judy Brewer, Cynthia Waddell, Gregg Vanderheiden, Sharron Rush
-- [W3C/WAI Accessibility Guidelines](https://www.w3.org/WAI/)
-- User research and lived experiences shared on [r/accessibility](https://www.reddit.com/r/accessibility/), blogs, and forums
-- Countless open-source projects and documentation efforts
-
-We are grateful for the work, wisdom, and generosity of everyone who has contributed to the field.  
-Every new insight here is only possible because of the incredible foundation built by others. Thank you!
-
----
-
-Ready to help make the web comfier for all?  
-Pull up a (virtual) beanbag and join us!
-
----
-
-*With comfort,  
-The Comfort Mode Toolkit Community 🛋️💛*
+*Making the web softer for everyone, one small improvement at a time*
